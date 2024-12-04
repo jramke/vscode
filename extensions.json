@@ -1,0 +1,29 @@
+{
+	"recommendations": [
+		// theme
+		"be5invis.vscode-custom-css",
+		"RaillyHugo.one-hunter",
+		"miguelsolorio.symbols",
+
+		// utils
+		"sleistner.vscode-fileutils",
+		"Gruntfuggly.todo-tree",
+		"YoavBls.pretty-ts-errors",
+		"aaron-bond.better-comments",
+
+		// files
+		"tomoki1207.pdf",
+		"jmkrivocapich.drawfolderstructure",
+		"Tyriar.luna-paint",
+		"jock.svg",
+		"mkxml.vscode-filesize",
+
+		// others
+		"GitHub.copilot",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"deque-systems.vscode-axe-linter",
+		"unifiedjs.vscode-mdx",
+		"bradlc.vscode-tailwindcss"
+	]
+}

@@ -1,0 +1,13 @@
+/* custom editor font for sidebar, cmd panel, breadcrumbs */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name,
+.monaco-inputbox .input,
+.monaco-breadcrumbs,
+.window-title {
+	font-family: 'Fira Code' !important;
+}
+
+/* Hide scrollbar for sidebar */
+.monaco-list .scrollbar {
+	display: none !important;
+}

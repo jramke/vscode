@@ -1,0 +1,86 @@
+{
+	// custom font
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 13.1,
+	"editor.lineHeight": 1.75,
+	"workbench.tree.indent": 14,
+
+	// custom font for sidebar
+	"vscode_custom_css.imports": ["file://${userHome}/.vscode/custom.css"],
+
+	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "One Hunter Flexoki Dark",
+
+	// starting screen
+	"workbench.startupEditor": "none",
+	"update.showReleaseNotes": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"window.newWindowDimensions": "maximized",
+
+	// minimal window
+	"workbench.editor.showTabs": "none",
+	"workbench.statusBar.visible": false,
+	"window.title": "${rootName} — ${activeEditorShort}",
+	"window.density.editorTabHeight": "compact",
+	"window.commandCenter": false,
+
+	// hide scrollbars and use minimap
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.showSlider": "always",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.scrollbar.horizontalScrollbarSize": 8,
+	"editor.scrollbar.vertical": "hidden",
+
+	// scroll behavior
+	"editor.scrollBeyondLastLine": false,
+	"editor.stickyScroll.enabled": false,
+
+	// cursor
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "block",
+
+	// editor helpers
+	"editor.linkedEditing": true,
+	"files.autoSave": "afterDelay",
+
+	// prettier
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 170,
+	"prettier.trailingComma": "none",
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+
+	// svelte
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+
+	// git
+	"diffEditor.renderSideBySide": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+
+	// file specific settings
+	"files.associations": {
+		"*.ts": "typescript",
+		"*.{css}": "tailwindcss"
+	},
+	"svg.preview.mode": "svg",
+
+	// prevent ally mode
+	"editor.accessibilitySupport": "off",
+	"accessibility.signals.progress": {
+		"sound": "off"
+	},
+
+	"github.copilot.enable": {
+		"*": true,
+		"markdown": true,
+		"plaintext": false
+	}
+}

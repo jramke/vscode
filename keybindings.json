@@ -1,0 +1,10 @@
+[
+	{
+		"key": "ctrl+n",
+		"command": "fileutils.newFile"
+	},
+	{
+		"key": "shift+space",
+		"command": "editor.action.showHover"
+	}
+]
