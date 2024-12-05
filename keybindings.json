@@ -4,7 +4,7 @@
 		"command": "fileutils.newFile"
 	},
 	{
-		"key": "shift+space",
+		"key": "ctrl+shift+space",
 		"command": "editor.action.showHover"
 	}
 ]
