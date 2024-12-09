@@ -18,7 +18,7 @@
 	"window.newWindowDimensions": "maximized",
 
 	// minimal window
-	"workbench.editor.showTabs": "none",
+	"workbench.editor.showTabs": false,
 	"workbench.statusBar.visible": false,
 	"window.title": "${rootName} — ${activeEditorShort}",
 	"window.density.editorTabHeight": "compact",
